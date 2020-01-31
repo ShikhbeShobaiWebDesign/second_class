@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    color: #8f8f8f;
+}
+
+a{
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+a:hover{
+    color: #363535;
+    font-size: 102%;
+}
+
+/*header design*/
+header{
+
+}
+
+.container{
+    overflow: hidden;
+    margin: auto 150px;
+}
+
+.logo{
+    display: inline-block;
+    width: 12%;
+    padding-top: 12px;
+}
+
+.logo img{
+    width: 150px;
+    float: left;
+}
+
+.header-menubar{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.header-menubar ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-menubar ol li{
+    display: inline-block;
+    padding: 30px;
+}
+
+.header-menubar ol li:last-child{
+    padding-right: 0;
+}
+
+
+/*photo design*/
+.image img{
+    width: 100%;
+}
+
+/*article design*/
+div.article{
+    padding: 50px;
+}
+
+h6{
+    margin: 0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h1{
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #5d5d5d;
+}
+
+p{
+    margin: 0;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+/*category design*/
+.content{
+    width: 50%;
+    float: left;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.content img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    padding-bottom: 20px;
+}
+
+/*signup design*/
+.signup{
+    background-color: #e1e1e1;
+    color: #3f3f3f;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.signup h2{
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+.signup span{
+    display: inline-block;
+}
+
+.email{
+    width: 20%;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.email h5{
+    margin: 0 20px 0 0;
+    font-size: 18px;
+    display: inline-block;
+}
+
+/*see more design*/
+.see-more h3 a{
+    margin: 0 auto;
+    width: 5%;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #8d8d8d;
+    display: block;
+}
+
+/*footer design start*/
+footer{
+    background-color: gainsboro;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.left-menu{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.left-menu ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.left-menu ol li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.left-menu ol li a{
+    font-size: 18px;
+}
+
+.right-menu{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.right-menu ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.right-menu ol li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.right-menu ol li a{
+    font-size: 18px;
+}
